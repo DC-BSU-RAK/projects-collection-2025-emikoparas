@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home"
+        android:contentDescription="@string/app_name" />
+
+    <!-- Text content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="left"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textHomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:paddingBottom="16dp"
+            android:text="Welcome to BookChef"
+            android:textColor="@android:color/white"
+            android:textSize="62sp"
+            android:fontFamily="@font/demothebillates" />
+        <!-- Change to @font/forestglamor if you prefer that font -->
+
+        <TextView
+            android:id="@+id/textHomeDescription"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/eyequirkydemo"
+            android:text="BookChef is your ultimate recipe companion Discover search and save your favorite dishes from all over the world Whether you're a seasoned chef or just starting your culinary journey BookChef is here to help you cook with confidence and creativity"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textSize="23sp" />
+
+        <!-- App owner credit -->
+        <TextView
+            android:id="@+id/textAppOwner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Created by Emiko Arkin Paras"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/eyequirkydemo" />
+    </LinearLayout>
+</FrameLayout>

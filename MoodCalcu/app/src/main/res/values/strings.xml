@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MoodCalcu</string>
+    <string name="title_mood_calculator">Mood Calculator ❤︎₊ ⊹</string>
+
+    <!-- Spinner options -->
+    <string-array name="mood_options">
+        <item>Emotion</item> <!-- Default placeholder -->
+        <item>😊 Happy</item>
+        <item>😢 Sad</item>
+        <item>😠 Angry</item>
+        <item>😌 Calm</item>
+        <item>😰 Anxious</item>
+    </string-array>
+</resources>
